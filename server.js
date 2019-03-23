@@ -6,7 +6,9 @@ var friends = require('./app/data/friends.js');
 var app = express();
 // whatever plot is define by the deployement side like heruku or 8080. This will work on local host and we don't have to reconfigure it whenever we have to deploy it in live
 var PORT = process.env.PORT || 8080;
- 
+
+//  use the following code to serve images, CSS files, and JavaScript files in a directory named public:
+app.use(express.static('app/public'));
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -32,6 +34,8 @@ app.use(express.json());
 require("./app/routing/apiRoutes.js")(app);
 // to navigate html file - from html_routs.js
 require("./app/routing/htmlRoutes.js")(app);
+
+
 
 
 

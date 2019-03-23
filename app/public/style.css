@@ -1,0 +1,25 @@
+#home{
+  background-image: url("./image/Friends-Forever-Best-HD-Wallpaper.jpg");
+  /* background-color: #dc1c1c; */
+  
+}
+
+.jumbotron{
+  background-color: brown;
+
+}
+#survey{
+  background-color: antiquewhite;
+}
+
+/* #bout{
+  color: red;
+} */
+
+
+/* adding asterisk to required fields */
+h4.required::after {
+  content: '*';
+  margin-right: 5px;
+  color: red;
+}
