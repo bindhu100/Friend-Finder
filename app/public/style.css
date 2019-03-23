@@ -8,9 +8,7 @@
   background-color: brown;
 
 }
-#survey{
-  background-color: antiquewhite;
-}
+
 
 /* #bout{
   color: red;
@@ -23,3 +21,11 @@ h4.required::after {
   margin-right: 5px;
   color: red;
 }
+
+/* survey page */
+#survey{
+  background-color: antiquewhite;
+}
+ #header{
+   text-align: center;
+ }
