@@ -19,28 +19,28 @@ In this activity, build a compatibility-based "FriendFinder" application, basica
 <li>HTML</li>
 </ul>
 
-<h3>Home Page</h3>
+<h3>:house:Home Page</h3>
 
 
 
 
 ![GitHub Logo](app/public/image/homePage.PNG)
 
-<h3>Survey Page</h3>
+<h3>:writing_hand:Survey Page</h3>
 
 
 
 ![GitHub Logo](app/public/image/Survey.PNG)
 
 
-<h3>Missing Required Information</h3>
+<h3>:broken_heart:Missing Required Information</h3>
 
 
 
 ![GitHub Logo](app/public/image/missing.PNG)
 
 
-<h3>Your Most Compatible Friend</h3>
+<h3>:revolving_hearts:Your Most Compatible Friend</h3>
 
 
 ![GitHub Logo](app/public/image/Friend.PNG)
