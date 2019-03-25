@@ -4,28 +4,129 @@
   
 }
 
-.jumbotron{
+/* .jumbotron{
   background-color: brown;
 
+} */
+
+.display-4{
+  text-align: center;
+  /* font-weight: bold; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #b23f79;
 }
 
+.lead{
+  text-align: center;
+}
 
-/* #bout{
-  color: red;
-} */
+#info{
+  /* background-color: rgba(255, 0, 0, 0.527); */
+  background-color: #b23f78a6;
+ 
+}
+
+.lead{
+  font-size: 2rem;
+  color: aliceblue;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.link{
+  color: aliceblue;
+  /* font-weight: bold; */
+  /* background-color:#007bff; */
+}
+#line{
+  /* color: aliceblue; */
+}
+#button{
+  margin-left: 500px;
+}
 
 
 /* adding asterisk to required fields */
-h4.required::after {
-  content: '*';
-  margin-right: 5px;
-  color: red;
-}
 
 /* survey page */
+
+ #home{
+  margin-top: 20px;
+  margin-left: 20px;
+} 
+
+ .btn-outline-info:hover{
+  font-weight: bolder;
+}
+.btn:hover {
+
+}
+.btn{
+  margin-top: 10px;
+  margin-left: 10px;
+  border-color: #17a2b8;
+ 
+}
+.btn-outline-info{
+  font-weight: bolder;
+
+ 
+} 
 #survey{
   background-color: antiquewhite;
 }
  #header{
    text-align: center;
  }
+
+ h4.required::after {
+  content: '*';
+  margin-right: 5px;
+  color: red;
+}
+
+/* missing info modal*/
+
+#cry{
+  margin-left: 115px;
+}
+#mishead{
+  background-color: orange;
+}
+
+#misfooter{
+  background-color: orange;
+}
+
+#crybutton{
+  background-color: #ad5b0f;
+  border-color: black;
+  color: black;
+}
+
+/* submite successfully modal*/
+#resultbody{
+  background-color:rgb(255, 176, 3);;
+}
+
+#reulthead{
+background-color:rgb(255, 218, 88);
+}
+
+#resultfooter{
+  background-color:rgb(255, 218, 88);
+}
+
+#closeModal{
+  /* background-color: royalblue; */
+  background-image: url("./image/ImpressionableConsiderateBactrian-size_restricted.gif");
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+} */
+ #resulttitle{
+  color: brown;
+}
+#matchName{
+  color: white;
+}
