@@ -20,4 +20,5 @@ In this activity, build a compatibility-based "FriendFinder" application, basica
 
 
 
-![GitHub Logo](public/image/homePage.PNG)
+
+![GitHub Logo](app/public/image/homePage.PNG)
