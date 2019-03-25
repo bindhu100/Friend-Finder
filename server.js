@@ -14,20 +14,20 @@ app.use(express.static('app/public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
- 
+
 
 
 // parse application/x-www-form-urlencoded json form,it's is eassy to manipulate
 // bodyParser - is allow us to recive our information back in 
 
 // app.use(bodyParser.urlencoded({ extended: false }))
- 
+
 // parse application/json
 
 // app.use(bodyParser.json())
 
 
- 
+
 
 // api routing - from api_routs.js
 
@@ -39,6 +39,6 @@ require("./app/routing/htmlRoutes.js")(app);
 
 
 
-app.listen(PORT, function(){
-  console.log("App listing to PORT:"+PORT);
+app.listen(PORT, function () {
+  console.log("App listing to PORT:" + PORT);
 });
